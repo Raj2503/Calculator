@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: solid;
+    background: transparent;
+    color: white;
+}
+
+.textview {
+    width: 207px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    color: rgb(85, 69, 69);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
+
+.bg {
+    height: 200em;
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, rgb(34, 145, 209));
+    /* Standard syntax (must be last) */
+}
